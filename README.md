@@ -3,7 +3,12 @@ Up to now, many variants have emerged based on UNET to solve the problem of imag
 
 This repository contains code for a image segmentation model based on [UNet++: A Nested U-Net Architecture for Medical Image Segmentation](https://arxiv.org/abs/1807.10165) implemented in PyTorch.
 
+
+
 This repository contains architecture ['UNet', 'NestedUNet', 'UNetPlusMinus','UNetPlusMinus2','WNet','WNetPlusPlus', 'UNetDeep', 'Conv3UNet','ConvUNet11223', 'ConvUNet32211', 'ConvUNet31122', 'ConvUNet32222', 'ConvUNet32221', 'ConvUNet3333', 'ConvUNet444', 'ConvUNet55','ConvUNet6',"ResUNet","UNetR1","UNetR12", "R1UNet444","R1UNet444UP","R1UNet444UP333","NOR1UNet444","UNet3"]
+
+
+<img width="1100" alt="3f3f3c4c23612207dfac8b7876c26c5" src="https://github.com/user-attachments/assets/de46c16a-e2d0-48f6-9a0b-daf4569406d5" />
 
 [**NEW**] Add support for multi-class segmentation dataset.
 
@@ -105,3 +110,9 @@ Here is the results on Kvasir-SEG dataset (96x96).
 | U-Net                           |  0.700  |  0.322  |
 | Nested U-Net                    |  0.699  |**0.320**|
 | TED-UNET（R1UNet444)            |**0.768**|  0.264  |
+
+
+![232f417d296a5fe6af03603aa339469](https://github.com/user-attachments/assets/95e3b299-2be5-49a0-b7ba-aceaafa657f4)
+
+
+
