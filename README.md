@@ -143,4 +143,7 @@ Here is the results on Kvasir-SEG dataset (96x96).
 
 ![fedd390a47a74040cf36fbcae1f952e](https://github.com/user-attachments/assets/0bf4bada-dfce-4c5d-bae4-af66e50deee1)
 
+![image](https://github.com/user-attachments/assets/8b42d455-7d40-4187-a7e3-5ecd752c35cd)
+
+
 
