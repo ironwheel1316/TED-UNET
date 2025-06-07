@@ -114,5 +114,19 @@ Here is the results on Kvasir-SEG dataset (96x96).
 
 ![232f417d296a5fe6af03603aa339469](https://github.com/user-attachments/assets/95e3b299-2be5-49a0-b7ba-aceaafa657f4)
 
+## Tool Instructions
+
+| File                            |                                                       function                                                         | 
+|:------------------------------- |:----------------------------------------------------------------------------------------------------------------------:|
+| archs                           | All models we used.                                                                                                    | 
+| train_with_validation           | The training is verified every ten rounds to achieve a better observation of whether overfitting has occurred.         |
+| calculate_flops                 | Analyze the parameters, storage volume and computational load of this model.                                           | 
+| test_multiclass                 | Test all the models under a certain dataset and generate a comparison chart.                                           | 
+| compare_logs                    | At the same time, for all the models in all the datasets, generate the IOU and Loss values for training and validation.| 
+| preprocess_dsb2018              | Preprocess the corresponding dataset.Download dataset from [here](https://www.kaggle.com/c/data-science-bowl-2018/data)| 
+| preprocess_kvasir_seg           | Preprocess the corresponding dataset.Download dataset from [here](https://www.kaggle.com/datasets/debeshjha1/kvasirseg)| 
+| preprocess_ClinicDB             | Preprocess the corresponding dataset..Download dataset from [here](https://www.kaggle.com/datasets/orvile/cvc-clinicdb)| 
+| test_output                     | Stored the results of the test set.                                                                                    | 
+| run.bat                         | A script for completing multiple trainings at once.                                                                    | 
 
 
