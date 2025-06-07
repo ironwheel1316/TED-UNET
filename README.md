@@ -1,5 +1,5 @@
 # TED-UNET
-Up to now, many variants have emerged based on UNET to solve the problem of image cutting. However, we found that UNET is still the one with the best generalization. Therefore, we returned to the most basic UNET architecture again, hoping to make changes on this basis. Thus, we discovered TE-UNET
+### Up to now, many variants have emerged based on UNET to solve the problem of image cutting. However, we found that UNET is still the one with the best generalization. Therefore, we returned to the most basic UNET architecture again, hoping to make changes on this basis. Thus, we discovered TE-UNET
 
 This repository contains code for a image segmentation model based on [U-Net: Convolutional Networks for Biomedical Image Segmentation](https://arxiv.org/abs/1505.04597) [UNet++: A Nested U-Net Architecture for Medical Image Segmentation](https://arxiv.org/abs/1807.10165) implemented in PyTorch in Windows.
 
