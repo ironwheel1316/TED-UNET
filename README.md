@@ -1,4 +1,4 @@
-### TED-UNet
+## TED-UNet
 
 UNet has been widely adopted for biomedical image segmentation tasks due to their strong performance and flexibility. After 10 years of its publication, UNet still displays its superiority over other models and even some of its optimized variants. In this work, we deliberately choose to build upon the original UNet architecture and propose TED-UNet, a lightweight yet effective optimization based on UNet. Experimental results on the *Kvasir-SEG* dataset demonstrate improved performance with significantly fewer parameters for our model, making room for further developments and improvements.
 
