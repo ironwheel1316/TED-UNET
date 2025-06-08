@@ -139,7 +139,7 @@ Here is the results on Kvasir-SEG dataset (96x96).
 | TED-UNET（R1UNet444)            |**0.768**|  0.264  |
 
 
-![232f417d296a5fe6af03603aa339469](https://github.com/user-attachments/assets/95e3b299-2be5-49a0-b7ba-aceaafa657f4)
+<img width="1274" alt="截屏2025-06-07 21 31 12" src="https://github.com/user-attachments/assets/031cefc8-ddb0-4dc2-9946-1c27057f1fb3" />
 
 
 ![fedd390a47a74040cf36fbcae1f952e](https://github.com/user-attachments/assets/0bf4bada-dfce-4c5d-bae4-af66e50deee1)
