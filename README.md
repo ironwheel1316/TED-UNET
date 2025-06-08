@@ -1,11 +1,12 @@
-# TED-UNET
-### Up to now, many variants have emerged based on UNET to solve the problem of image cutting. However, we found that UNET is still the one with the best generalization. Therefore, we returned to the most basic UNET architecture again, hoping to make changes on this basis. Thus, we discovered TED-UNET
+## TED-UNet
 
-This repository contains code for a image segmentation model based on [U-Net: Convolutional Networks for Biomedical Image Segmentation](https://arxiv.org/abs/1505.04597) [UNet++: A Nested U-Net Architecture for Medical Image Segmentation](https://arxiv.org/abs/1807.10165) implemented in PyTorch in Windows.
+UNet has been widely adopted for biomedical image segmentation tasks due to their strong performance and flexibility. After 10 years of its publication, UNet still displays its superiority over other models and even some of its optimized variants. In this work, we deliberately choose to build upon the original UNet architecture and propose TED-UNet, a lightweight yet effective optimization based on UNet. Experimental results on the *Kvasir-SEG* dataset demonstrate improved performance with significantly fewer parameters for our model, making room for further developments and improvements.
+
+This repository contains code for a image segmentation model based on [U-Net: Convolutional Networks for Biomedical Image Segmentation](https://arxiv.org/abs/1505.04597) [UNet++: A Nested U-Net Architecture for Medical Image Segmentation](https://arxiv.org/abs/1807.10165) implemented by PyTorch on Windows.
 
 
 
-This repository contains architecture ['UNet', 'NestedUNet', 'UNetPlusMinus','UNetPlusMinus2','WNet','WNetPlusPlus', 'UNetDeep', 'Conv3UNet','ConvUNet11223', 'ConvUNet32211', 'ConvUNet31122', 'ConvUNet32222', 'ConvUNet32221', 'ConvUNet3333', 'ConvUNet444', 'ConvUNet55','ConvUNet6',"ResUNet","UNetR1","UNetR12", "R1UNet444","R1UNet444UP","R1UNet444UP333","NOR1UNet444","UNet3"]
+The model contains architecture ['UNet', 'NestedUNet', 'UNetPlusMinus','UNetPlusMinus2','WNet','WNetPlusPlus', 'UNetDeep', 'Conv3UNet','ConvUNet11223', 'ConvUNet32211', 'ConvUNet31122', 'ConvUNet32222', 'ConvUNet32221', 'ConvUNet3333', 'ConvUNet444', 'ConvUNet55','ConvUNet6',"ResUNet","UNetR1","UNetR12", "R1UNet444"(TED-UNet),"R1UNet444UP","R1UNet444UP333","NOR1UNet444","UNet3"]
 
 ![image](https://github.com/user-attachments/assets/b69ccb8a-2732-4624-9d06-910bd6a7eab9)
 
@@ -138,7 +139,7 @@ Here is the results on Kvasir-SEG dataset (96x96).
 | TED-UNET（R1UNet444)            |**0.768**|  0.264  |
 
 
-![232f417d296a5fe6af03603aa339469](https://github.com/user-attachments/assets/95e3b299-2be5-49a0-b7ba-aceaafa657f4)
+<img width="1274" alt="截屏2025-06-07 21 31 12" src="https://github.com/user-attachments/assets/031cefc8-ddb0-4dc2-9946-1c27057f1fb3" />
 
 
 ![fedd390a47a74040cf36fbcae1f952e](https://github.com/user-attachments/assets/0bf4bada-dfce-4c5d-bae4-af66e50deee1)
